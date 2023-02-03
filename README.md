@@ -33,3 +33,13 @@ git status
 git add .
 git add nombreDelArchivo.xy
 ```
+
+* Para crear registro de los cambios realizados:
+```bash
+git commit -m "comentario corto y conciso".
+```
+
+* Para ver una lnea de tiempo de los commits que hemos realizado
+```bash
+git log
+```
