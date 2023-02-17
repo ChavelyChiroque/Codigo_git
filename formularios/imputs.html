@@ -5,26 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+
     <title>Document</title>
 </head>
-
+<style>
+    p {
+       
+        padding: 10px;
+    }
+    <!---mala practica-->
+</style>
 <body>
     <section>
-        <h1> Formularios</h1>
+        <h1 style="color:fuchsia; font-size:60px"; > Formularios</h1>
         <!--sirve para crear formulario-->
         <form>
             <p>
-                <input type="text" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required />
+                <input type="text" class="form-imput" name="name" placeholder="Ingresa tu nombre" autocomplete="off" required />
             </p>
             <p>
-                <input type="email" name="email" placeholder="ingresa tu correo" readonly value="chavely@gmail.com" />
+                <input type="email" class="form-imput" name="email" placeholder="ingresa tu correo" readonly value="chavely@gmail.com" />
                 <!--- con readonly se envia dato en el formulario-->
             </p>
             <p>
                 <input type="password" name="password" placeholder="Escribe una contraseña segura" disabled />
             </p>
+
             <p>
-                <input type="file" name="image/*" />
+                <input type="file" name="image/>
             </p>
             <p>
                 <input type="number" name="phone_number" placeholder="ingresa un número" />
@@ -58,7 +67,7 @@
             <p>
                 <input type="color" name="bg_color" />
             </p>
-            <button type="submit"> Enviar datos </button>
+            <button id="boton-enviar" type="submit"> Enviar datos </button>
             </p>
         </form>
     </section>

@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "outfit";
+    background-color: hsl(217, 54%, 11%);
+
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.card {
+    width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px 15px;
+    border-radius: 20px;
+    color: hsl(218, 44%, 22%);
+}
+
+img {
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 10px;
+    margin-top: 5px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+p {
+    padding: 10px;
+    color: hsl(214, 27%, 51%);
+    font-size: 20px;
+
+}
+
+
+span {
+    color: hsl(178, 100%, 50%);
+
+}
+.content {
+    display: inline-flex;
+}
+
+.icon-ethereum {
+        vertical-align: middle;
+}
+
+.icon-clock {
+    margin-left: 120px;
+    vertical-align: middle;
+   }
+
+.image-avatar {
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: white;
+    padding: 1px;
+
+}
+
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+    }
+
+b {
+    color: hsl(214, 27%, 51%);
+    width: 300px;
+    font-size: 15px;
+    font-weight:normal;
+}
+
+#autor {
+    color: white
+}
